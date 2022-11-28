@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type = "text/css">
+	em {front-weight: bold; color: black;}
+	h1 {font-size: 20pt; font-weight:1000; color: white;}
+	p {font-size: 15pt; }
+	ps {color: gray; font-size: 10pt}
+	input[type = "number"]{width: 30px}
+	#myHeader{
+		background-color: lightblue;
+		padding:15px;
+	}
+	.question{
+		background-color:#C8F5FE;
+	}
+
+</style>
+
+	<title></title>
+
+</head>
+
+<body>
+
+<h1 id = myHeader>EXERCISE 2</h1> 
+
+<p> <h class = "question">Color:</h> 
+	<input type = "color" value="#ADD8E6"><ps>(Hexadecimal code such as #ADD8E6)</ps></p>
+
+<p><h class = "question">Date:</h> 
+	<input type = "date"><ps>(yyyy-mm-dd)</ps></p>
+
+<p><h class = "question">Email:</h>
+	<input type = "email" name = "email" placeholder = "name@domain.com" required><ps>(name@domain.com)</ps></p>
+
+<p><h class = "question">Number:</h>
+	<input type = "number" size = "3"><ps>(Enter a number between 0 and 7)</ps></p>
+
+<p><h class = "question">Range:</h> 0
+	<input type = "range" min ="0" max = "20">20</p>
+
+<p><h class = "question">Search:</h> 
+	<input type = "text" placeholder = "search query"></p>
+
+<p><h class = "question">Time:</h> 
+	<input type = "time">
+	<ps>(hh:mm)</ps></p>
+
+<p>
+<input type = "submit" value = "Submit">
+<input type ="reset" value = "Clear"></p>
+</body>
