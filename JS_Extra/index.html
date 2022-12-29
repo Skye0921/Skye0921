@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<p id = "extra"></p>
+
+<script>
+
+  var text = window.prompt("input data");
+  var query = window.prompt("input a char to search")
+ 
+  var firstIndex = text.indexOf(query);
+  var lastIndex = text.lastIndexOf(query);
+  var thirdIndex = text.indexOf(query, 3);
+
+ 
+  
+  document.write("<p>" + firstIndex + "</p>" + "<p>" + lastIndex + "</p>" + "<p>"+ thirdIndex + "</p>");
+  
+
+
+
+ 
+
+  // function findOccurrences() {
+  //   // Get the input from the user
+  //   var text = document.getElementById("sentence").value;
+  //   var query = document.getElementById("query").value;
+
+  //   // Find the first occurrence of the query string
+  //   var firstIndex = text.indexOf(query);
+
+  //   // Find the last occurrence of the query string
+  //   var lastIndex = text.lastIndexOf(query);
+
+  //   // Find the third occurrence of the query string
+  //   var thirdIndex = text.indexOf(query, 3);
+
+  //   // Output the results
+  //   document.write(`The first occurrence of "${query}" is at position ${firstIndex}.`);
+  //   document.write(`The last occurrence of "${query}" is at position ${lastIndex}.`);
+  //   document.write(`The third occurrence of "${query}" is at position ${thirdIndex}.`);
+  // }
+</script>
